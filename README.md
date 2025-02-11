@@ -103,7 +103,7 @@ Phi-4 is not an OpenAI model. To find the connection information, go to the "Hom
     }
     ```
 
-7. Go the `statusQueryGetUri` to get the result of the orchestration instance. It should show the final answer picked by the evaluation model:
+7. Go the `statusQueryGetUri` to get the result of the orchestration instance. It should show the final answer picked by the evaluation model in the **output**:
 
     ```json
     {
@@ -143,7 +143,7 @@ The sample added a print statement to print out the prompt to the evaluation mod
 
 ![Evaluation model prompt](media/evaluation-model-prompt.png)
 
-All three responses returned `45` as the answer. However, the first one does seem to be the simplest of all. 
+All three responses returned `45` as the answer. Just like what GPT-4 has determined, the first one does seem to be the simplest and easiest to understand.  
 
 
 ### Using Azure Functions Core Tools (CLI)
