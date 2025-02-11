@@ -50,13 +50,13 @@ You'll need the model endpoints and keys for the next step.
 
 #### GPT models 
 Get the connection information by going to the "Deployments" tab on Azure AI Foundry portal and clicking into the name of the model. For example, here's how to get the information for GTP-3.5-turbo: 
-  ![Getting connection info example](img/gpt-35-connection.png)
+  ![Getting connection info example](media/gpt-35-connection.png)
 
 #### Phi-4
 [Phi-4](https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090) is a small language model by Microsoft that has advanced reasoning capabilities in areas like math and science.
 
 Phi-4 is not an OpenAI model. To find the connection information, go to the "Home" page of the project where this model is deployed. 
-  ![Phi 4 connection info](img/phi-4-connection.png)
+  ![Phi 4 connection info](media/phi-4-connection.png)
 
 
 ### Using Visual Studio Code
@@ -141,7 +141,7 @@ def orchestrator_function(context):
 #### Responses from language models
 The sample added a print statement to print out the prompt to the evaluation model, which shows the responses from the three different language models: 
 
-![Evaluation model prompt](img/evaluation-model-prompt.png)
+![Evaluation model prompt](media/evaluation-model-prompt.png)
 
 All three responses returned `45` as the answer. However, the first one does seem to be the simplest of all. 
 
