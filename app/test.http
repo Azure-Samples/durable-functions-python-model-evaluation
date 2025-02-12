@@ -1,0 +1,5 @@
+POST http://localhost:7071/api/orchestrators/orchestrator_function
+Content-Type: application/json
+Content-Length: 20
+
+"In a room of 10 people, how many handshakes are needed so that everyone has shaken hands with everyone else exactly once?"
