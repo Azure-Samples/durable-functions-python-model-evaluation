@@ -1,0 +1,26 @@
+POST http://localhost:7071/api/orchestrators/orchestrator_function
+Content-Type: application/json
+Content-Length: 20
+
+{ "prompt": "What is the value proposition of Azure Durable Functions and what is it used for?" }
+
+###
+POST http://localhost:7071/api/orchestrators/orchestrator_function
+Content-Type: application/json
+Content-Length: 20
+
+{ "prompt": "Explain general relativity." }
+
+###
+POST https://<app domain>/api/orchestrators/orchestrator_function
+Content-Type: application/json
+Content-Length: 20
+
+{ "prompt": "What is the value proposition of Azure Durable Functions and what is it used for?" }
+
+###
+POST https://<app domain>/api/orchestrators/orchestrator_function
+Content-Type: application/json
+Content-Length: 20
+
+{ "prompt": "Why is the sky blue?" }
